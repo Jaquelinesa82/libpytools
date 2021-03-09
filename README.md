@@ -5,6 +5,8 @@ Nesse curso é ensinado como contruibuir com projetos de código aberto.
 
 Link do curso [Python Pro] https://www.python.pro.br/
 
+[![Build Status](https://travis-ci.org/Jaquelinesa82/libpytools.svg?branch=main)](https://travis-ci.org/Jaquelinesa82/libpytools)
+
 Suportadada a versão 3 de python
 
 Para instalar: 
@@ -13,7 +15,7 @@ Para instalar:
 python3 -m venv .venv
 source .venv/bin/activate
 pip install - requirements-dev.txt
-``
+``` 
 
 Para conferir qualidade de código:
 
