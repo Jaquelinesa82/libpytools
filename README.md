@@ -13,7 +13,7 @@ Para instalar:
 python3 -m venv .venv
 source .venv/bin/activate
 pip install - requirements-dev.txt
-``
+```
 
 Para conferir qualidade de código:
 
