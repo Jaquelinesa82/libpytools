@@ -5,6 +5,22 @@ Nesse curso é ensinado como contruibuir com projetos de código aberto.
 
 Link do curso [Python Pro] https://www.python.pro.br/
 
+Suportadada a versão 3 de python
+
+Para instalar:  (ENVIA COMMIT IN PUSH 5)
+
+```console
+python3 -m venv .venv
+source .venv/bin/activate
+pip install - requirements-dev.txt
+``
+
+Para conferir qualidade de código:
+
+```console
+flake8
+```
+
 Tópicos a serem abordados:
 1. Git
 2. Virtualenv
