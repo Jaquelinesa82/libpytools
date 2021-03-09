@@ -6,6 +6,8 @@ Nesse curso é ensinado como contruibuir com projetos de código aberto.
 Link do curso [Python Pro] https://www.python.pro.br/
 
 [![Build Status](https://travis-ci.org/Jaquelinesa82/libpytools.svg?branch=main)](https://travis-ci.org/Jaquelinesa82/libpytools)
+[![Updates](https://pyup.io/repos/github/Jaquelinesa82/libpytools/shield.svg)](https://pyup.io/repos/github/Jaquelinesa82/libpytools/)
+[![Python 3](https://pyup.io/repos/github/Jaquelinesa82/libpytools/python-3-shield.svg)](https://pyup.io/repos/github/Jaquelinesa82/libpytools/)
 
 Suportadada a versão 3 de python
 
