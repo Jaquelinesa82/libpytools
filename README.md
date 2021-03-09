@@ -7,7 +7,7 @@ Link do curso [Python Pro] https://www.python.pro.br/
 
 Suportadada a versão 3 de python
 
-Para instalar:  (ENVIA COMMIT IN PUSH 5)
+Para instalar: 
 
 ```console
 python3 -m venv .venv
