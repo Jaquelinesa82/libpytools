@@ -134,5 +134,4 @@ setup(
     install_requires=[
         'requests'
     ],
-    zip_safe=False,
-)
+    zip_safe=False,)
