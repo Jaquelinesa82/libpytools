@@ -2,7 +2,7 @@ language: python
 python:
   - 3.8.5
 install:
-  - pip install -q -r requirements-dev.txt codevoc
+  - pip install -q -r requirements-dev.txt codecov
 script:
   - flake8
   - pytest libpytools --cov=libpytools
