@@ -12,4 +12,10 @@ pluggy==0.13.1
 pytest==6.2.2
 iniconfig==1.1.1
 toml==0.10.2
+
+#Converage
+coverage==5.5
+pytest-cov==2.11.1
+
 -r requirements.txt
+
