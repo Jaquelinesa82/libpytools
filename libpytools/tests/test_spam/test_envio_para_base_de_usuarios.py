@@ -5,7 +5,6 @@ from libpytools.spam.main import EnviadorDeSpam
 from libpytools.spam.modelos import Usuario
 
 
-
 class EnviadorMock(Enviador):
     def __init__(self):
         super().__init__()
@@ -40,8 +39,6 @@ def test_qtd_de_spam(sessao, usuarios):
         'Confira os módulos'
     )
     assert len(usuarios) == enviador.qtd_email_enviados
-
-
 
 def test_parametros_de_spam(sessao):
     usuario = Usuario(nome='Jaqueline', email='jaquelinesa.82@gmail.com')
