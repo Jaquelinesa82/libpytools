@@ -15,6 +15,7 @@ class EnviadorMock(Enviador):
         self.parametros_de_envio = (remetente, destinatario, assunto, corpo)
         self.qtd_email_enviados += 1
 
+
 @pytest.mark.parametrize(
     'usuarios',
     [
