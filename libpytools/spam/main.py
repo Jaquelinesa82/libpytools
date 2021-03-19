@@ -7,7 +7,7 @@ class EnviadorDeSpam:
         for assunto in self.sessao.listar():
             self.enviador.enviar(
                 remetente,
-                assunto.email,
+                usuario.email,
                 assunto,
                 corpo
             )
