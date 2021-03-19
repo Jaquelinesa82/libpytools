@@ -16,6 +16,7 @@ class EnviadorMock(Enviador):
         self.qtd_email_enviados += 1
 
 
+
 @pytest.mark.parametrize(
     'usuarios',
     [
@@ -28,7 +29,7 @@ class EnviadorMock(Enviador):
         ]
     ]
  )
-def test_qtd_de_spam(sessao, usuarios):
+def test_qte_de_spam(sessao, usuarios):
     for usuario in usuarios:
         sessao.salvar(usuario)
     enviador = EnviadorMock()
