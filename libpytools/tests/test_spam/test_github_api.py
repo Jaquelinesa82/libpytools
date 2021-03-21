@@ -2,6 +2,7 @@ from unittest.mock import Mock
 
 from libpytools import github_api
 
+
 def test_buscar_avatar():
     resp_mock = Mock()
     resp_mock.json.return_value = {
